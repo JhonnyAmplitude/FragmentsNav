@@ -14,7 +14,7 @@ class firstFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentFirstBinding.inflate(inflater)
+         binding = FragmentFirstBinding.inflate(inflater)
         return binding.root
     }
 
